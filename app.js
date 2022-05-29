@@ -5,10 +5,8 @@ const reset = document.querySelector('#reset');
 
 // Actions
 add.addEventListener('click', () => {
-    if (count.innerHTML < 5) {
-        count.innerHTML++;
-        pickColor();
-    }
+    count.innerHTML++;
+    pickColor();
 });
 sub.addEventListener('click', () => {
     count.innerHTML--;
