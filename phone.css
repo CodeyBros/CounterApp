@@ -1,0 +1,69 @@
+/* Universal */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+}
+
+/* Body */
+body {
+    background-color: #eee;
+}
+
+
+/* Container */
+.container {
+    height: 100vh;
+    display: block;
+    margin: auto;
+}
+
+/* Heading */
+.heading {
+    margin-top: 20%;
+    margin-bottom: 10%;
+    text-align: center;
+    margin-right: 10px;
+}
+.heading h1 {
+    font-size: 3rem;
+}
+
+/* Counter */
+.counter {
+    margin: 10px;
+    background-color: white;
+    padding: 2.5rem;
+    border-radius: 1rem;
+    box-shadow: rgba(100, 100, 100, 0.3) 0px 8px 35px 2px;
+    margin-bottom: 10%;
+}
+
+/* Counter P */
+.container .counter p {
+    text-align: center;
+    font-size: 10rem;
+    font-weight: 300;
+}
+
+/* Counter Buttons */
+.container .buttons {
+    text-align: center;
+    margin-top: 2rem;
+}
+.container .buttons button {
+    font-size: 1.5rem;
+    padding: 0.5rem 1rem;
+    margin: 0.5rem;
+    cursor: pointer;
+}
+.container .buttons button#sub {
+    background-color: red;
+    color: white;
+}
+.container .buttons button#add {
+    background-color: green;
+    color: white;
+}
